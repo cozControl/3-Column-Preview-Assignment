@@ -155,14 +155,14 @@
     color: rgb(5, 66, 66);
 }
 
-@media (max-width: 375px) {
-    .card1{
+@media (max-width: 600px) {
+    #contanier{
+     flex-direction: column;
         width: 300px;
 
     }
     
   }
-  @media (min-width: 1440px) {
-    /* Your CSS code for desktop devices */
-  }
+
+  
     
