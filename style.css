@@ -1,0 +1,168 @@
+@import url(Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca));
+@import url(Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display));
+
+*{
+ align-items: center; 
+ justify-content: center;  
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    padding-left: 10px;
+    align-items: center;
+    color: black;
+    margin-top: 100px;
+    
+}
+.card1{
+    color: white;
+    background: rgb(251, 156, 55);
+    height: 400px;
+    width: 270px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.card2{
+    color: white;
+    display: flex;
+    background-color:darkcyan;
+    height: 400px;
+    width: 270px;
+    margin: 0px;
+    align: center;
+    border-radius: 0px;
+} 
+.card3{
+    color: white;
+    display: flex;
+    background-color: rgb(5, 66, 66);
+    height: 400px;
+    width: 270px;
+    margin: 0px;
+    border-radius: 0px;
+} 
+
+.icon1{
+    margin: 25px;
+   margin-top: 65px;
+}
+
+.icon2{
+    position: relative;
+    margin: -60px;
+    margin-bottom: 170px;
+    margin-left: 20px;
+}
+.icon3{
+    margin: 25px;
+    margin-bottom: 250px;
+    margin-right: -90px;
+}
+
+.tittle1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    margin: 25px;
+
+}
+.paragraph1{
+    position: relative;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 1.5;
+    font-size: 13px;
+    margin: 25px;
+    margin-bottom: 100px;
+}
+.btn{
+    position: absolute;
+    height: 35px;
+    width: 120px;
+    margin-left: 80px;
+    margin-top: -20px;
+    border-radius: 15px;
+    border: 0;
+    color:  rgb(251, 156, 55);
+
+}
+
+.tittle2{
+    position: absolute;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-right: 160px;
+    margin-bottom: 120px;
+}
+.paragraph2{
+    position: relative;
+    font-family:  'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 1.5;
+    font-size: 13px;
+    margin: -1px;
+    margin-top: 70px;
+    margin-right: 90px;
+    width: 200px;
+    
+
+
+}
+.btn2{
+    position: absolute;
+    height: 35px;
+    width: 120px;
+    margin-right: 0px;
+    margin-top: 310px;
+    border-radius: 15px;
+    border: 0;
+    color:darkcyan;;
+}
+.tittle3{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 120px;
+}
+.paragraph3{
+    font-family:  'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 1.5;
+    font-size: 13px;
+    margin: 1px;
+    margin-top: 60px;
+    margin-left: -70px;
+    width: 200px;
+}
+.btn3{
+    position: absolute;
+    height: 35px;
+    width: 120px;
+    margin-right: 0px;
+    margin-top: 310px;
+    border-radius: 15px;
+    border: 0;
+    color: rgb(5, 66, 66);
+}
+
+@media (max-width: 375px) {
+    .card1{
+        width: 300px;
+
+    }
+    
+  }
+  @media (min-width: 1440px) {
+    /* Your CSS code for desktop devices */
+  }
+    
